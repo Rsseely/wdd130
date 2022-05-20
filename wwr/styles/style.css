@@ -1,21 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Prompt&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
+    font-family:  "Prompt";
+}
+h1 {
+    font-family:  "Prompt";
+    text-align: center;
+}
+h2 {
+    margin: 0;
 }
 body {
     background-color: #eeeeee;
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 header {
     background-color: #00adb5;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -24,6 +44,7 @@ nav a {
     text-align: center;
     color: #222831;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #00adb5;
@@ -31,18 +52,31 @@ nav a:hover {
 }
 .home-title {
     color: #00adb5;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #222831;
+    font-family:  "Prompt";;
 }
 .book, .join {
     background-color: #222831;
     color: #00dee8;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #eeeeee;
+    background-color: #00adb5;
     color: #00adb5;
+}
+.card-img {
+    border: 10px solid #222831;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     background-color: #007c82;
@@ -50,16 +84,23 @@ h4 {
 }
 .msg {
     background-color: #222831;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #00dee8;
+    font-family:  "Prompt";
 }
 .msg p {
     color: #00adb5;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #eeeeee;
     text-decoration: underline;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #222831;
@@ -72,4 +113,7 @@ footer a {
 footer a:hover {
     color: #007c82;
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
