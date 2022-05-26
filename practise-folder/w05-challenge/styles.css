@@ -1,0 +1,17 @@
+div {
+    background-color: #737373;
+    /* margin: -5px; */
+}
+div img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin: 5%;
+}
+.main-img {
+    width: 100%;
+    display: block;
+}
+body {
+    margin: 0;
+}
