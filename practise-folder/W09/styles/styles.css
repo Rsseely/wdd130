@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(250, 247, 247);
+    font-family: Roboto-Slab, 'Times New Roman', Times, serif;
+}
+#hero {}
+#hero-box {}
+#hero-img {}
+h5 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
