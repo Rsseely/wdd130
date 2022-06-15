@@ -2,25 +2,59 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: rgb(30, 30, 30);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 body {
-    background-color: rgb(250, 247, 247);
+    background-color: rgb(255, 255, 255);
     font-family: Roboto-Slab, 'Times New Roman', Times, serif;
 }
-#hero {}
-#hero-box {}
-#hero-img {}
+#hero {
+    background-color: rgb(30, 30, 30);
+}
+#hero-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 0/3;
+    grid-row: 0/2;
+    margin: 0 auto;
+}
 h5 {
+    display: grid;
+    /*grid-template-columns:  repeat(3, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;*/
     text-align: center;
+    color: rgb(69, 90, 135);
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding-top: 30px;
 }
 h1 {
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 p {
     text-align: center;
+    /*display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-column: 2/3;
+    grid-row: 1/2;*/
+    background-color: white;
+    margin: auto;
+    padding-bottom: 20px;
+
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:  repeat(3, 1fr);
     margin-bottom: 100px;
+    text-align: center;
+    background-color: rgb(69, 90, 135);
+    color: rgb(255, 255, 255);
 }
