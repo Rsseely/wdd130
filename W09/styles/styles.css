@@ -45,12 +45,12 @@ p {
     margin-bottom: auto;
     text-align: center;
     font-size: smaller;
-    color: black;
+    color: white;
     grid-gap:0.5px;
 }
 #read-box {
     background-color: rgb(69, 90, 135); padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-radius: 0px 0px 0px 10px;
 }
 #views-box {
@@ -61,6 +61,6 @@ p {
 #comments-box {
     background-color: rgb(69, 90, 135);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-radius: 0px 0px 10px 0px;
 }
