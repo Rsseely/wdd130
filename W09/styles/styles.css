@@ -1,60 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: rgb(30, 30, 30);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-}
+
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     font-family: Roboto-Slab, 'Times New Roman', Times, serif;
 }
 #hero {
-    background-color: rgb(30, 30, 30);
-}
-#hero-img {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column: 0/3;
-    grid-row: 0/2;
+    background-color: black;
+    width: 300px;
     margin: 0 auto;
 }
+#hero-img {
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+}
+section {
+    background-color: rgb(255, 255, 255);
+}
 h5 {
-    display: grid;
-    /*grid-template-columns:  repeat(3, 1fr);
-    grid-column-start: 2;
-    grid-column-end: 3;*/
     text-align: center;
     color: rgb(69, 90, 135);
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 h1 {
+    font-family: Roboto-Slab, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 p {
     text-align: center;
-    /*display: grid;
-    grid-template-columns:  repeat(3, 1fr);
-    grid-column: 2/3;
-    grid-row: 1/2;*/
-    background-color: white;
-    margin: auto;
+    background-color:white;
+    color: #8F848F;
+    margin: 0 auto;
     padding-bottom: 20px;
-
+    font-family: Roboto-Slab, 'Times New Roman', Times, serif;
 }
 .grid {
     display: grid;
     grid-template-columns:  repeat(3, 1fr);
-    margin-bottom: 100px;
+    margin-bottom: auto;
     text-align: center;
+    font-size: smaller;
+    color: black;
+    grid-gap:0.5px;
+}
+#read-box {
+    background-color: rgb(69, 90, 135); padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 0px 10px;
+}
+#views-box {
     background-color: rgb(69, 90, 135);
-    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#comments-box {
+    background-color: rgb(69, 90, 135);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 10px 0px;
 }
