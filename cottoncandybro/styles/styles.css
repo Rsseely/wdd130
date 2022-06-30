@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&family=Pacifico&family=Roboto&family=Sacramento&display=swap');
+
 #content {
     max-width: 1024px;
     margin: 0 auto;
@@ -9,6 +11,9 @@ body {
 header {
     display: grid;
     grid-template-columns: 200px auto;
+}
+p {
+    font-family: Fresca, Roboto, Arial; 
 }
 #CCB-logo {
     border-radius: 100px;
@@ -27,7 +32,11 @@ nav a:hover {
     background-color: #ADD9FC;
     color: #EAE1C2;
 }
+h1 {
+    font-family: "Pacifico", "Sacramento", "Arial";
+}
 #main-home {
+    font-family: Fresca, Roboto, Arial;
     text-align: center;
     font-size: 2em;
     background-color: white;
@@ -42,6 +51,7 @@ nav a:hover {
 #content2-home {
     text-align: left;
     font-size: 1em;
+    font-family: Fresca, Roboto, Arial;
 }
 footer {
     background-color: #ADD9FC;
@@ -65,7 +75,7 @@ footer a:hover {
     color: #9CD89C;
     text-decoration: none;
     background-color: #F6D3F4;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 60px;
 }
 footer .social img {
