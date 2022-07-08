@@ -32,9 +32,58 @@ nav a:hover {
     background-color: #ADD9FC;
     color: #EAE1C2;
 }
+#hero-gallery-img {
+    width: 1024px;
+}
+#hero-gallery-msg h1, #hero-gallery-msg h4, .button-box {
+    text-align: center;
+}
 h1 {
     font-family: "Pacifico", "Sacramento", "Arial";
 }
+
+
+
+#hero-gallery {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0px;
+}
+#hero-gallery-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-gallery-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-gallery-msg h4 {
+    color: black;
+    font-size: larger;
+    font-family: "Fresca", "Roboto", "Arial";
+}
+#hero-gallery-img {
+    width: 100%;
+}
+.book {
+    background-color: #F6D3F4;
+    color: (#9CD89C);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: #eeeeee;
+    color: #9CD89C;
+}
+
+
+
+
 #main-home {
     font-family: "Fresca", "Roboto", Arial;
     text-align: center;
