@@ -38,9 +38,13 @@ nav a:hover {
 #hero-gallery-msg h1, #hero-gallery-msg h4, .button-box {
     text-align: center;
 }
-h1 {
+h1{
     font-family: "Pacifico", "Sacramento", "Arial";
 }
+h2, h4 {
+    font-family: "Fresca", "Roboto", "Arial";
+}
+
 
 
 
@@ -72,6 +76,7 @@ h1 {
     color: (#9CD89C);
     text-decoration: none;
     font-size: 18px;
+    font-family: "Fresca", "Roboto", "Arial";
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
