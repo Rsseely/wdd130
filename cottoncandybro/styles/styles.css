@@ -61,7 +61,7 @@ h2, h4 {
 #hero-gallery-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #hero-gallery-msg h4 {
     color: black;
@@ -70,6 +70,7 @@ h2, h4 {
 }
 #hero-gallery-img {
     width: 100%;
+    margin-bottom: 100px;
 }
 .book {
     background-color: #F6D3F4;
