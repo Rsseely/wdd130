@@ -342,11 +342,9 @@ button {
         font-size: 25px;
         color: #6f7364;
     }
-
     #background {
         display: none;
     }
-
     footer {
-        margin-top: 25px;
-    }
+        margin-top: 25px;}
+}
