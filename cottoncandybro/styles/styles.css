@@ -137,6 +137,51 @@ footer .social img {
     padding-top: 15px;
 }
 
+
+
+
+#contact-content  {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+#main-contact {
+    font-family: "Fresca", "Roboto", Arial;
+    text-align: center;
+    font-size: 2em;
+    background-color: white;
+    padding: 75px;
+}
+.h1-contact {
+    text-align: center;
+}
+#content-contact-us {
+    text-align: center;
+}
+#hero-contact {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0px;
+}
+#hero-contact-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-contact-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+}
+#hero-contact-msg h4 {
+    color: black;
+    font-size: larger;
+    font-family: "Fresca", "Roboto", "Arial";
+}
+#hero-contact-img {
+    width: 1024px;
+    margin-bottom: 100px;
+}
+
 /* --- This is the start of the Java script --- */
 
 form {
@@ -145,6 +190,7 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    margin-bottom: 100px;
 }
 ul {
     list-style: none;
