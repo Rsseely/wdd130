@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 body {
-    background-color: #9CD89C;
+    background-color: #F6D3F4;
     font-family: "Pacifico", "Sacramento", "Arial";
 }
 header {
@@ -245,7 +245,7 @@ button {
   }
   
   body {
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
     padding: 20px;
     font-family: Arial;
   }
