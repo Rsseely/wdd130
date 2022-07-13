@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 body {
-    background-color: #F6D3F4;
+    background-color: #9CD89C;
     font-family: "Pacifico", "Sacramento", "Arial";
 }
 header {
@@ -93,7 +93,7 @@ h2, h4 {
 #main-home {
     font-family: "Fresca", "Roboto", Arial;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     background-color: white;
     padding: 75px;
 }
@@ -317,17 +317,48 @@ button {
   }
 /* The media section is below this line. */
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
+@media (max-width: 600px) {
+    body, header, main, footer, #hero-contact-img {
+        max-width: 100%;
+    }
+    #hero-contact-img {
+        margin-bottom: 0px;
+    }
+    #content-contact-us {
+        font-size: 1em;
+    }
+    form {
+        width: auto;
+    }
+    #hero-img, #brothers {
+        max-width: 100%;
+    }
+    .h1-home, .gallery-title, .h1-contact {
+        font-size: 1.5em;
+        word-break: normal;
+    }
+    .column {
+        width: 100%;
+    }
+    #hero, .home-grid , header {
         display: block;
         height: auto;
     }
-    nav, footer {
+    nav {
+        flex-direction: row;
+    } 
+    footer {
         flex-direction: column;
+    }
+    #CCB-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     nav a {
         display: block;
         padding: 15px;
+        font-size: 1em;
     }
     #hero {
         margin-top: 0;
@@ -341,6 +372,9 @@ button {
     .home-title {
         font-size: 25px;
         color: #6f7364;
+    }
+    #hero-gallery-msg h4 {
+        font-size: 1em;
     }
     #background {
         display: none;
